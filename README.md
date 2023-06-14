@@ -5,3 +5,4 @@ windows.py为windows.ui转化为python文件后进行修该，添加后成为窗
 get_stations.py为在进行模拟查询请求前，12306已经将站点中文名转化为简称，该文件用于将中文名与简称一一对应存储在stations.text文件中
 query_requests.py为对12306查票请求的模拟，并将返回内容进行处理
 启动方法：运行windows.py文件，在窗口中输入出发地和目的地，时间进行查询。页面将返回与12306查票页面相同信息
+具体代码在master分支中
